@@ -14,3 +14,15 @@
     font-size:11px;
     color: #d89fa7;
 }
+
+.container_custom {
+        display:block;
+}
+.jumbotron_custom {
+    background-color: rgba(255,255,255,0.8);
+    margin-top: 5px;
+    border-style: solid ;
+    border-color: rgba(1,1,1,0.2);
+    border-width: 1px;
+
+}

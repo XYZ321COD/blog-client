@@ -3,16 +3,13 @@ import { Query } from 'react-apollo'
 import FEED_QUERY3 from '../../queries/feed3query'
 import {useParams} from 'react-router';
 import Spinner from "react-bootstrap/Spinner";
-import '../Home.css'
-import Col from "react-bootstrap/Col";
 import "./Post.css"
 
 const Post = () => {
     const name = useParams();
     const category_string = name.name;
     return (
-        <div className="container">
-            <Col xs={10}>
+        <div className="container container_custom">
             <Query query={FEED_QUERY3} variables={{name: category_string}}>
                 {({ loading, error, data }) => {
                     if (loading) return   <Spinner animation="border" variant="dark" />;
@@ -35,7 +32,6 @@ const Post = () => {
                     );
                 }}
             </Query>
-            </Col>
         </div>
 
 );
