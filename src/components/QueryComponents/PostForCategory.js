@@ -6,15 +6,12 @@ import Logo from "./../ReUsableComponents/GitLogo";
 import {Link} from "react-router-dom";
 import {useParams} from 'react-router';
 import Spinner from 'react-bootstrap/Spinner'
-import '../Home.css'
-import Col from "react-bootstrap/Col";
-import "./Post.css"
+import "./PostForCategory.css"
 const Posts = () => {
     const name = useParams();
     const category_string = name.name;
     return (
-        <div className="container">
-            <Col xs={10}>
+        <div className="container container_custom">
             <Query query={FEED_QUERY2} variables={{category: category_string}}>
                 {({ loading, error, data }) => {
                     if (loading) return   <Spinner animation="border" variant="dark" />;
@@ -24,7 +21,7 @@ const Posts = () => {
                         <div className="jumbotron jumbotron_custom">
                             <ListGroup variant="flush">
                                 <ListGroup.Item>
-                                    <h3 className="text">Posts</h3>
+                                    <h3 className="text">Posts for category  <span className="span2">{category_string}</span> </h3>
                                 </ListGroup.Item>
                                 <div>
                                     {linksToRender.map((blogpost, i) => {
@@ -45,7 +42,6 @@ const Posts = () => {
                     );
                 }}
             </Query>
-            </Col>
         </div>
     );
 };

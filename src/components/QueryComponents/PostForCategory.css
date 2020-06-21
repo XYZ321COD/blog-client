@@ -1,25 +1,13 @@
-.post_text {
-    padding: 10px;
-}
-
-.span {
-    color: #d89fa7;
-    font-weight: bold;
-    font-size: 14px;
-}
 .span2 {
     color: #d89fa7;
     font-weight: bold;
 }
 
-.desc {
-    margin-left: 15px;
-    padding: 2px;
-    font-size:11px;
-    color: #d89fa7;
+.container_custom {
+    display:block;
 }
 
-@media (max-width: 768px) {
+@media  (max-width: 768px) {
     /* For mobile phones: */
     .container_custom {
         display:block;
@@ -32,7 +20,6 @@
         width:900px;
     }
 }
-
 .jumbotron_custom {
     background-color: rgba(255,255,255,0.8);
     margin-top: 5px;
