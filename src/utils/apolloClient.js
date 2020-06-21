@@ -4,7 +4,7 @@ import { HttpLink } from "apollo-link-http";
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
-    uri: `http://localhost:4000`
+    uri: `https://fast-scrubland-21578.herokuapp.com/`
 });
 const client = new ApolloClient({
     cache,
