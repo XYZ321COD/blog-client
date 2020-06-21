@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Navbar, Nav, NavItem,NavDropdown } from 'react-bootstrap';
+import {Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import './CustomNavBar.css';
 import Logo from '../ReUsableComponents/GitLogo';
 
