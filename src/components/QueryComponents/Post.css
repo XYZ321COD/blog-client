@@ -1,0 +1,16 @@
+.post_text {
+    padding: 10px;
+}
+
+.span {
+    color: #d89fa7;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.desc {
+    margin-left: 15px;
+    padding: 2px;
+    font-size:11px;
+    color: #d89fa7;
+}
