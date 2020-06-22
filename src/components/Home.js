@@ -21,11 +21,32 @@ export default class Home extends Component {
                 </ul>
                 <div className='text'> Technologies I have worked on </div>
                 <ul className="text_welcome">
-                    <li>Deep Learning (PyTorch, Keras, Tensorflow)</li>
+                    <li> Package, dependency and environment management tools </li>
+                        <ul>
+                            <li> Web apps Front-end management - npm </li>
+                            <li> Package management and environment management in data science projects - conda</li>
+                            <li> creation, deployment of applications and accelerating them by GPU - docker </li>
+
+                        </ul>
+                    <li>Deep Learning </li>
+                    <ul>
+                        <li> PyTorch</li>
+                        <li> Keras </li>
+                        <li> TensorFlow </li>
+                    </ul>
                     <li>Machine Learning</li>
-                    <li>Databases (MySQL)</li>
-                    <li>Content Management System (Strapi)</li>
-                    <li>REST APIs (Apollo GraphQL)</li>
+                    <li>Databases</li>
+                    <ul>
+                        <li> MySQL</li>
+                        <li> PostgreSQL </li>
+                        <li> Request and deliver data to web apps - Apollo GraphQL </li>
+                        <li> Data access, migrations and visual data management - Prisma </li>
+
+                    </ul>
+                    <li>Content Management System </li>
+                    <ul>
+                        <li> Strapi</li>
+                    </ul>
                 </ul>
                 <div className='text'> Other Interests</div>
                 <ul className="text_welcome">
@@ -33,7 +54,7 @@ export default class Home extends Component {
                     <li>Evolutionary processes</li>
                 </ul>
                 <div className="text_welcome">
-                    Actually my webpage was created by me. Using React as frontend framework. Strapi as backend and Apollo which provides connectivity between my frontend and backend.
+                    Actually my web-page was a little project of mine. I decided that I will use React as frontend framework. On the client-side, I used Apollo GraphQL queries. Prisma allowed me to connect to my database and translate my graphQL queries to classical database language such as PostgreSQL
                 </div>
             </div>
 

@@ -9,7 +9,8 @@ export default class Aboutme extends Component {
             <div className="container">
                 <Col>
                     <div className="jumbotron jumbotron_custom">
-                        AboutMe
+                        For now, there is nothing here :(. 
+                        But why don't you check-out my Home-page to get to know me better :)?
                     </div>
                 </Col>
             </div>
