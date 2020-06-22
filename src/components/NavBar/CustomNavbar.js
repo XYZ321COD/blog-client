@@ -34,10 +34,13 @@ export default class CustomNavbar extends Component {
                 <Nav className="mr-auto">
                     <NavDropdown class="dropdown-toggle" title="Menu" className="px-4" href="./about"
                                  id="downdrop1">
-                        <NavDropdown.Item href="/./about/Resume">Resume</NavDropdown.Item>
+                        <NavDropdown.Item href="/.">Home</NavDropdown.Item>
+                        <NavDropdown.Item target="_blank" href="https://github.com/XYZ321COD"> Resume</NavDropdown.Item>
                         <NavDropdown.Item href="/./about/Aboutme">About me</NavDropdown.Item>
-                        <NavDropdown.Item href="/./works">Works</NavDropdown.Item>
+                        <NavDropdown.Item href="/./blog">Blog</NavDropdown.Item>
                         <NavDropdown.Item href="/./contact">Contact</NavDropdown.Item>
+                        {/*<NavDropdown.Item href="/./works">Papers</NavDropdown.Item>*/}
+
 
 
                     </NavDropdown>
@@ -59,8 +62,8 @@ export default class CustomNavbar extends Component {
                             <NavDropdown.Item target="_blank" href="https://github.com/XYZ321COD">Resume</NavDropdown.Item>
                             <NavDropdown.Item href="/./about/Aboutme">About me</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link className="px-4" href="/./works">Blog</Nav.Link>
-                        <Nav.Link className="px-4" href="/./works">Papers</Nav.Link>
+                        <Nav.Link className="px-4" href="/./blog">Blog</Nav.Link>
+                        {/*<Nav.Link className="px-4" href="/./works">Papers</Nav.Link>*/}
 
                     </Nav>
                     <Nav className="ml-auto">
