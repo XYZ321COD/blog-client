@@ -1,13 +1,13 @@
 import React, {Component } from 'react'
 import './App.css';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Resume from './components/Resume';
 import News from './components/News';
 import Contact from './components/Contact';
 import CustomNavbar from './components/NavBar/CustomNavbar';
-import Posts from "./components/QueryComponents/PostForCategory"
+import Posts from "./components/QueryComponents/AllPostsForCategory"
 import Post from "./components/QueryComponents/Post"
 class App extends  Component {
   render() {
@@ -15,7 +15,6 @@ class App extends  Component {
         <Router>
           <div>
             <CustomNavbar/>
-            <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about/Aboutme" component={AboutMe} />
             <Route path="/about/Resume" component={Resume} />
@@ -23,7 +22,6 @@ class App extends  Component {
             <Route path="/contact" component={Contact}/>
             <Route path="/categories/:name" component={Posts}/>
             <Route path="/posts/:name" component ={Post}/>
-            </Switch>
           </div>
         </Router>
     )
