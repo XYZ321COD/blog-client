@@ -1,0 +1,9 @@
+.column_custom {
+    border-bottom-style: solid;
+    border-color: rgba(1,1,1,0.2);
+}
+
+.container{
+    display: flex
+}
+

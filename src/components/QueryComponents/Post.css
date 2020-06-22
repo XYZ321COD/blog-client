@@ -1,0 +1,33 @@
+.post_text {
+    padding: 10px;
+}
+
+.span {
+    color: #d89fa7;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    /* For mobile phones: */
+    .container_custom {
+        display:block;
+    }
+}
+@media (min-width: 768px) {
+    /* For desktop phones: */
+    .container_custom {
+        display:block;
+        width:900px;
+    }
+}
+
+.jumbotron_custom {
+    background-color: rgba(255,255,255,0.8);
+    margin-top: 5px;
+    border-style: solid ;
+    border-color: rgba(1,1,1,0.2);
+    border-width: 1px;
+
+}
