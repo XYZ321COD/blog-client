@@ -35,7 +35,7 @@ export default class CustomNavbar extends Component {
                     <NavDropdown class="dropdown-toggle" title="Menu" className="px-4" href="./about"
                                  id="downdrop1">
                         <NavDropdown.Item href="/.">Home</NavDropdown.Item>
-                        <NavDropdown.Item target="_blank" href="https://www.dropbox.com/preview/MichalZnalezniak/Resume-Time%20-%20Copy.pdf?role=personal"> Resume</NavDropdown.Item>
+                        <NavDropdown.Item target="_blank" href="https://www.dropbox.com/home/MichalZnalezniak?preview=Resume-Time.png"> Resume</NavDropdown.Item>
                         <NavDropdown.Item href="/./about/Aboutme">About me</NavDropdown.Item>
                         <NavDropdown.Item href="/./blog">Blog</NavDropdown.Item>
                         <NavDropdown.Item href="/./contact">Contact</NavDropdown.Item>
@@ -59,7 +59,7 @@ export default class CustomNavbar extends Component {
                         <Nav.Link class="navbar-link" className="px-4" href="/.">Home</Nav.Link>
                         <NavDropdown class="dropdown-toggle" title="About" className="px-4" href="./about"
                                      id="downdrop1">
-                            <NavDropdown.Item target="_blank"  href="https://www.dropbox.com/preview/MichalZnalezniak/Resume-Time%20-%20Copy.pdf?role=personal">Resume</NavDropdown.Item>
+                            <NavDropdown.Item target="_blank"  href="https://www.dropbox.com/home/MichalZnalezniak?preview=Resume-Time.png">Resume</NavDropdown.Item>
                             <NavDropdown.Item href="/./about/Aboutme">About me</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link className="px-4" href="/./blog">Blog</Nav.Link>
