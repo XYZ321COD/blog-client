@@ -35,7 +35,7 @@ export default class CustomNavbar extends Component {
                     <NavDropdown class="dropdown-toggle" title="Menu" className="px-4" href="./about"
                                  id="downdrop1">
                         <NavDropdown.Item href="/.">Home</NavDropdown.Item>
-                        <NavDropdown.Item target="_blank" href="https://github.com/XYZ321COD"> Resume</NavDropdown.Item>
+                        <NavDropdown.Item target="_blank" href="/../../resources/Resume-Time2.png"> Resume</NavDropdown.Item>
                         <NavDropdown.Item href="/./about/Aboutme">About me</NavDropdown.Item>
                         <NavDropdown.Item href="/./blog">Blog</NavDropdown.Item>
                         <NavDropdown.Item href="/./contact">Contact</NavDropdown.Item>
