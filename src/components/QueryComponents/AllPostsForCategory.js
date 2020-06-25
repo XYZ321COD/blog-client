@@ -32,7 +32,8 @@ const Posts = () => {
                                                       afterhover={require("../../resources/cookie-cartoon-png-1.png")}/>
                                                 {' '}
                                                 <Link to={post_name} className="link"> {blogpost.name} </Link>
-                                                <div className="desc"> {blogpost.description.substring(0,50)}....</div>
+                                                <div className="desc" dangerouslySetInnerHTML={{__html: blogpost.description.substring(0,50)}} />
+                                                {/* <div className="desc"> {blogpost.description.substring(0,50)}....</div> */}
                                             </ListGroup.Item>
                                         );
                                     })}
