@@ -54,7 +54,8 @@ export default class Home extends Component {
                     <li>Evolutionary processes</li>
                 </ul>
                 <div className="text_welcome">
-                    Actually my web-page was a little project of mine. I decided that I will use React as frontend framework. On the client-side, I used Apollo GraphQL queries. Prisma allowed me to connect to my database and translate my graphQL queries to classical database language such as PostgreSQL
+                    Actually my web-page was a little project of mine. I decided that I will use React as frontend framework. On the client-side, I used Apollo GraphQL queries.
+                     Prisma allowed me to connect to my database and translate my graphQL queries to classical database language such as PostgreSQL.
                 </div>
             </div>
 
