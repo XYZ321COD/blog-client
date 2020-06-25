@@ -1,9 +1,12 @@
 import React from "react";
 import { Query } from 'react-apollo'
+import {Link} from 'react-router-dom';
 import POST_WITH_GIVEN_NAME_QUERY from '../../queries/graphqlQueryForPostWithGivenName'
 import {useParams} from 'react-router';
 import Spinner from "react-bootstrap/Spinner";
 import "./Post.css"
+import Pdf from '../../../public/files/Floating_Point_Representation.pdf';
+
 
 const Post = () => {
     const name = useParams();
@@ -24,7 +27,6 @@ const Post = () => {
                                                     <h2> {blogpost.name} </h2>
                                                     <p> Posted on <span className="span">{blogpost.createdAt.substring(0,10)}</span> by Michał :)</p>
                                                     <div dangerouslySetInnerHTML={{__html: blogpost.description}} />
-                                                    {/* <p> {blogpost.description}</p> */}
                                                 </div>
                                         );
                                     })}
