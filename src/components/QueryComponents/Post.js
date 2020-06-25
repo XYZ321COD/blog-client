@@ -25,7 +25,6 @@ const Post = () => {
                                                     <h2> {blogpost.name} </h2>
                                                     <p> Posted on <span className="span">{blogpost.createdAt.substring(0,10)}</span> by Michał :)</p>
                                                     <div dangerouslySetInnerHTML={{__html: blogpost.description}} />
-                                                    <a href='../../resources/Floating_Point_Representation.pdf' target='_blank' download>Floating Point Quantization</a>   
                                                     </div>
                                         );
                                     })}
