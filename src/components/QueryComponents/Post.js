@@ -23,7 +23,8 @@ const Post = () => {
                                                 <div className="post_text">
                                                     <h2> {blogpost.name} </h2>
                                                     <p> Posted on <span className="span">{blogpost.createdAt.substring(0,10)}</span> by Michał :)</p>
-                                                    <p> {blogpost.description}</p>
+                                                    <div dangerouslySetInnerHTML={{__html: blogpost.description}} />
+                                                    {/* <p> {blogpost.description}</p> */}
                                                 </div>
                                         );
                                     })}
