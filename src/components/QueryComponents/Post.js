@@ -5,7 +5,7 @@ import POST_WITH_GIVEN_NAME_QUERY from '../../queries/graphqlQueryForPostWithGiv
 import {useParams} from 'react-router';
 import Spinner from "react-bootstrap/Spinner";
 import "./Post.css"
-import Pdf from '../../resources/Floating_Point_Representation"
+import Pdf from "../../resources/Floating_Point_Representation.pdf"
 
 
 const Post = () => {
